@@ -10,7 +10,7 @@ The code of "Information Divergence-Based Matching Strategy for Online Signature
   
 - Date: 2018/01/10
   
-- Contact: fangyuxun@mail.scut.edu.cn
+- Contact: fang.yuxun@mail.scut.edu.cn
   
 - COPYRIGHT (C) Lei Tang, Wenxiong Kang, Yuxun Fang 
   
@@ -26,7 +26,7 @@ The code of "Information Divergence-Based Matching Strategy for Online Signature
   You can select the initialization parameters in __setting__.
   
 ## Performance
-__Note__: The result is slightly different from the report of the paper, which is mainly because the numerical differences in the process of reproduction. What's more, we find a better parameter of the classifier ID2 and the performance is slightly imporved.
+__Note__: The result is slightly different from the report of the paper, which is mainly because the numerical differences in the process of reproduction. What's more, we find a better parameter of the classifier ID2 and slightly imporve the performance.
 
 database |  EER TN 5  | EER TN 10 |
 ---------|  --------  |  -------- |
