@@ -18,7 +18,7 @@ The code of "Information Divergence-Based Matching Strategy for Online Signature
 
   The code can be used only for accademic researches, when use this code in your paper, please cite the paper.
   
-  L. Tang, W. Kang, Y. Fang, Information Divergence-based Matching Strategy for Online Signature Verification, IEEE Transactions on Information Forensics & Security, 2018.13(4): 861-873.
+  __L. Tang, W. Kang, Y. Fang, Information Divergence-based Matching Strategy for Online Signature Verification, IEEE Transactions on Information Forensics & Security, 2018.13(4): 861-873.__
 
 ## Instructions
   Because of the permissions, we can't provide the database. You need to add the susig and mcyt database to the folder.
