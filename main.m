@@ -79,12 +79,16 @@ end
 %% score normalization
 score = zeros(subject, sample);
 % ID_2
-thre = 0.7 * ((Gtest_mean(i, j)-Gref_mean(i))^2 / (Gref_std(i)^2) + 1);
-if (Gtest_std(i, j)^2 / Gref_std(i)^2) >= thre
-    % We find it better to use 0.4 than 0.3 proposed in the paper.
-    score(i, j) = (Gtest_mean(i, j) - Gref_mean(i)) * (Gtest_std(i, j) / Gref_std(i)) ^ 0.4;
-else
-    score(i, j) = (Gtest_mean(i, j) - Gref_mean(i)) * (Gref_std(i) / Gtest_std(i, j)) ^ 0.4;
+for i = 1 : subject
+    for j = 1 : sample
+        thre = 0.7 * ((Gtest_mean(i, j)-Gref_mean(i))^2 / (Gref_std(i)^2) + 1);
+        if (Gtest_std(i, j)^2 / Gref_std(i)^2) >= thre
+            % We find it better to use 0.4 than 0.3 proposed in the paper.
+            score(i, j) = (Gtest_mean(i, j) - Gref_mean(i)) * (Gtest_std(i, j) / Gref_std(i)) ^ 0.4;
+        else
+            score(i, j) = (Gtest_mean(i, j) - Gref_mean(i)) * (Gref_std(i) / Gtest_std(i, j)) ^ 0.4;
+        end
+    end
 end
 
 %% calculate EER
