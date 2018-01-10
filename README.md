@@ -1,7 +1,7 @@
 # FBU-DTW-for-signature-verification
 The code of "Information Divergence-Based Matching Strategy for Online Signature Veriﬁcation"
 
-## Information Divergence-Based Matching Strategy for Online Signature Veriﬁcation
+## FBU-DTW
 - Paper Link: http://ieeexplore.ieee.org/document/8097414
 
 - Title: Information Divergence-Based Matching Strategy for Online Signature Veriﬁcation
@@ -26,7 +26,7 @@ The code of "Information Divergence-Based Matching Strategy for Online Signature
   You can select the initialization parameters in __setting__.
   
 ## Performance
-  __note__: The result is slightly different from the report of the paper, which is mainly because the numerical differences in the process of reproduction. What's more, we find a better paramether of the classifier ID2 and the performance is slightly imporved.
+__Note__: The result is slightly different from the report of the paper, which is mainly because the numerical differences in the process of reproduction. What's more, we find a better parameter of the classifier ID2 and the performance is slightly imporved.
 
 database |  EER TN 5  | EER TN 10 |
 ---------|  --------  |  -------- |
