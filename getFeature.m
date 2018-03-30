@@ -1,13 +1,13 @@
 function [Feature, L] = getFeature(database, pflag)
 
 if pflag
-    if exist([upper(database),'_feautre_p.mat'], 'file')
-        load([upper(database),'_feautre_p.mat']);
+    if exist([upper(database),'_feature_p.mat'], 'file')
+        load([upper(database),'_feature_p.mat']);
         return;
     end
 else
-    if exist([upper(database),'_feautre.mat'], 'file')
-        load([upper(database),'_feautre.mat']);
+    if exist([upper(database),'_feature.mat'], 'file')
+        load([upper(database),'_feature.mat']);
         return;
     end
 end
@@ -68,8 +68,8 @@ end
 
 disp('Saving feature ...');
 if pflag
-    save([upper(database),'_feautre_p'],'Feature','L');
+    save([upper(database),'_feature_p'],'Feature','L');
 else
-    save([upper(database),'_feautre'],'Feature','L');
+    save([upper(database),'_feature'],'Feature','L');
 end
 disp('Feature saved.');
