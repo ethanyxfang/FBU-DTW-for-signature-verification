@@ -1,10 +1,10 @@
 # FBU-DTW-for-signature-verification
-The code of "Information Divergence-Based Matching Strategy for Online Signature Veriﬁcation"
+The code of "Information Divergence-Based Matching Strategy for Online Signature Verification"
 
 ## FBU-DTW
 - Paper Link: http://ieeexplore.ieee.org/document/8097414
 
-- Title: Information Divergence-Based Matching Strategy for Online Signature Veriﬁcation
+- Title: Information Divergence-Based Matching Strategy for Online Signature Verification
   
 - Author: Lei Tang, Wenxiong Kang, Yuxun Fang (from BIP Lab, SCUT, P.R.China)
   
@@ -16,7 +16,7 @@ The code of "Information Divergence-Based Matching Strategy for Online Signature
   
 - ALL RIGHTS RESERVED
 
-  The code can be used only for accademic researches, when use this code in your paper, please cite the paper.
+  The code can be used only for academic researches, when use this code in your paper, please cite the paper.
   
   __L. Tang, W. Kang, Y. Fang, Information Divergence-based Matching Strategy for Online Signature Verification, IEEE Transactions on Information Forensics & Security, 2018.13(4): 861-873.__
 
